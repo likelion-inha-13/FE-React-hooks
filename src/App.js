@@ -1,13 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Darkmode from "./components/Darkmode/Darkmode";
+import React from "react";
 import LoginPage from "./page/LoginPage";
+import Darkmode from "./components/Darkmode/Darkmode";
 
 function App() {
   return (
-    <div>
+    <Darkmode>
       <LoginPage />
-    </div>
+    </Darkmode>
   );
 }
 
